@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color:cornsilk;
+    background-image: linear-gradient(to bottom right, #013c4a 0, #193e4c 44%, #004b5b 100%);
+}
+
+.landing hr {
+    width: 10em;
+    height: 0.3em;
+    color:cornsilk;
+    background-color: cornsilk;
+    border-width: 0;
+    margin: 3em auto;
+}
+
+.landing h1 {
+    margin: 0.8em;
+    font-weight: bolder;
+}
+
+.landing h2 {
+    margin: 0.3em;
+    font-weight: normal;
+}
