@@ -1,35 +1,126 @@
+@font-face {
+    font-family: opensans;
+    src: url(open-sans.regular.ttf);
+}
+@font-face {
+    font-family: opensanslight;
+    src: url(open-sans.light.ttf);
+}
+
+@font-face {
+    font-family: walkway;
+    src: url(walkway.ttf);
+}
+
 body {
     margin: 0;
-    text-align: center;
-    font-family: sans-serif;
+
+    font-family: opensanslight;
 }
 
-.landing {
-    min-height: 100vh;
+main {
+    margin: auto;
+
+    max-width: 1200px;
+
+    margin-bottom: 12em;
+}
+
+.navcontent {
+    height: 92px;
 
     display: flex;
-    justify-content: center;
+
     align-items: center;
-
-    color:cornsilk;
-    background-image: linear-gradient(to bottom right, #013c4a 0, #193e4c 44%, #004b5b 100%);
 }
 
-.landing hr {
-    width: 10em;
-    height: 0.3em;
-    color:cornsilk;
-    background-color: cornsilk;
-    border-width: 0;
-    margin: 3em auto;
+.navcontent img {
+    height: 95%;
+    
 }
 
-.landing h1 {
-    margin: 0.8em;
-    font-weight: bolder;
+.title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.landing h2 {
-    margin: 0.3em;
+
+.title-section img {
+    max-width: 90%;
+    margin-top: 12px;
+    filter: grayscale(100%);
+}
+
+.container {
+    display: flex;
+}
+
+section {
+    margin: 1.4em 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    color: #fff;
+    background-color: rgb(39, 167, 177);
+    border: 0;
+    margin-left: auto;
+
+    border-radius: 5px;
+
+    font-family: opensans;
+
+    padding: 10px 12px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(59, 200, 211);
+}
+
+#names {
+    font-size: 28px;
+    font-family: walkway;
+    font-weight: lighter;
+
+    margin: 0.8em 0;
+}
+
+h2 {
     font-weight: normal;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-3 h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.col-3 img {
+    width: 90%;
+    clip-path: ellipse(40% 35% at 50% 50%);
+
+    filter: grayscale(100%);
 }
