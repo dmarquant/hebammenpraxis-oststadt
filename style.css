@@ -101,6 +101,11 @@ p {
     text-align: center;
 }
 
+#address {
+    font-size: 1.2em;
+    text-align: center;
+}
+
 #contact-info {
     width: 600px;
     max-width: 85%;
@@ -171,4 +176,8 @@ p {
 
 .col-3 img {
     width: 95%;
+}
+
+.areas {
+    list-style: none;
 }
