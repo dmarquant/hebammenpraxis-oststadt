@@ -41,34 +41,8 @@ header h1 {
     margin: auto;
 }
 
-.navcontent {
-    height: 92px;
-
-    display: flex;
-
-    align-items: center;
-}
-
-.navcontent img {
-    height: 95%;
-    
-}
-
-.title-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-
-.container {
-    display: flex;
-}
-
 section {
-    margin: 1.4em 4em;
+    margin: 1.4em 1em;
     display: flex;
     flex-direction: column;
 }
@@ -92,12 +66,11 @@ section {
     background-color: rgb(59, 200, 211);
 }
 
-#names {
+h1 {
     font-size: 28px;
-    font-family: walkway;
     font-weight: lighter;
-
-    margin: 0.8em 0;
+    text-align: center;
+    margin: 0 0.8em;
 }
 
 h2 {
@@ -114,40 +87,17 @@ p {
     font-size: 18px;
 }
 
-.row {
-    display: flex;
-}
 
-.col-6 {
-    width: 50%;
-}
 
-.col-3 {
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-.col-3 {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.col-3 h3 {
+#email {
+    font-size: 1.4em;
     text-align: center;
 }
 
-.col-3 img {
-    width: 75%;
-}
-
-#email {
-    font-size: 1.6em;
-}
-
 #contact-info {
-    max-width: 600px;
+    width: 600px;
+    max-width: 85%;
+
     margin: auto;
     font-size: 1.2em;
 
@@ -157,4 +107,65 @@ p {
 
     margin-top: 4em;
     margin-bottom: 4em;
+}
+
+
+/* Layouts */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.col-3 {
+    padding-left: 2em;
+    padding-right: 2em;
+
+    max-width: 440px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-6 {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 660px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    .col-3 {
+        width: 320px;
+    }
+
+    .col-6 {
+        max-width: 45%;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 2060px) {
+    .col-3 {
+        width: 440px;
+    }
+}
+
+
+
+
+
+.profile-heading {
+    text-align: center;
+}
+
+.col-3 img {
+    width: 95%;
 }
