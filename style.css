@@ -47,6 +47,13 @@ section {
     flex-direction: column;
 }
 
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(237, 243, 243);
+}
+
 .btn {
     color: #fff;
     background-color: rgb(39, 167, 177);
@@ -157,10 +164,6 @@ p {
         width: 440px;
     }
 }
-
-
-
-
 
 .profile-heading {
     text-align: center;
