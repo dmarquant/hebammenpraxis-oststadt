@@ -175,7 +175,7 @@ p {
 }
 
 .col-3 img {
-    width: 95%;
+    max-width: 100%;
     height: auto;
 }
 
