@@ -176,6 +176,7 @@ p {
 
 .col-3 img {
     width: 95%;
+    height: auto;
 }
 
 .areas {
