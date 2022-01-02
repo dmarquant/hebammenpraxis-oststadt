@@ -127,6 +127,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+    gap: 150px 0;
 }
 
 .col-3 {
@@ -181,4 +183,8 @@ p {
 
 .areas {
     list-style: none;
+}
+
+hr {
+    margin: 3em 0;
 }
